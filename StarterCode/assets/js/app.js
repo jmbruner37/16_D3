@@ -1,7 +1,12 @@
 // @TODO: YOUR CODE HERE!
-d3.csv("assets/data/data.csv", function(error, healthData) {
-    if (error) return console.warn(error);
+// Define SVG area dimensions
+var svgWidth = 960;
+var svgHeight = 500;
 
-    console.log(healthData)
+var margin = {
+  top: 20,
+  right: 40,
+  bottom: 60,
+  left: 100
+};
 
-});
